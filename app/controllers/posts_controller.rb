@@ -46,3 +46,5 @@ class PostsController < ApplicationController
     params.require(:post).permit(:title, :description)
   end
 end
+
+
